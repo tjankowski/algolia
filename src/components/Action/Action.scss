@@ -1,0 +1,11 @@
+@import "../../common/styles/variables.scss";
+
+.Action {
+    color: $blue;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  outline: none; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  background: url(assets/background.png); }

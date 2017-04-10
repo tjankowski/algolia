@@ -1,0 +1,39 @@
+.Filter {
+  padding-top: 23px; }
+  .Filter:first-child {
+    padding-top: 0; }
+  .Filter__Label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 7px; }
+  .Filter__Options {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .Filter__Option {
+    cursor: pointer;
+    display: flex;
+    padding: 0 10px;
+    line-height: 20px;
+    margin-top: 1px;
+    border-radius: 3px;
+    border: 1px solid transparent; }
+    .Filter__Option:first-child {
+      margin-top: 0; }
+    .Filter__Option:hover {
+      border: 1px solid #2897c5; }
+    .Filter__Option--hover {
+      border: 1px solid #2897c5; }
+    .Filter__Option--selected {
+      background: #2897c5;
+      color: #fff; }
+  .Filter__Option--selected {
+    color: #fff; }
+    .Filter__Option--selected > .Filter__OptionCount {
+      color: #fff; }
+  .Filter__OptionLabel {
+    flex-grow: 2;
+    padding-right: 10px; }
+  .Filter__OptionCount {
+    color: #9A9A9A; }

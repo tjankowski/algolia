@@ -1,0 +1,68 @@
+@import "../../common/styles/variables.scss";
+@import "../../common/styles/_utils.scss";
+
+.Filter {
+    padding-top: 23px;
+
+    &:first-child {
+        padding-top: 0;
+    }
+
+    &__Label {
+        display: block;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 7px;
+    }
+
+    &__Options {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    &__Option {
+        cursor: pointer;
+        display: flex;
+        padding: 0 10px;
+        line-height: 20px;
+        margin-top: 1px;
+        border-radius: 3px;
+        border: border(transparent);
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:hover {
+            border: border($blue);
+        }
+
+        &--hover {
+            border: border($blue);
+        }
+
+        &--selected {
+            background: $blue;
+            color: $white;
+        }
+    }
+
+    &__Option--selected {
+        color: $white;
+
+        > .Filter__OptionCount {
+            color: $white;
+        }
+    }
+
+    &__OptionLabel {
+        flex-grow: 2;
+        padding-right: 10px;
+    }
+
+    &__OptionCount {
+        color: #9A9A9A;
+    }
+}

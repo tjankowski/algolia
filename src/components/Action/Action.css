@@ -1,0 +1,6 @@
+.Action {
+  color: #2897c5;
+  text-decoration: none;
+  cursor: pointer; }
+  .Action:hover {
+    text-decoration: underline; }

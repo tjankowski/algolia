@@ -1,0 +1,23 @@
+@import "../../common/styles/variables.scss";
+@import "../../common/styles/_utils.scss";
+
+.SearchSummary {
+    display: flex;
+
+    &__Results {
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    &__Time {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    &__Separator {
+        flex-grow: 2;
+        margin-left: 20px;
+        border-bottom: border($gray);
+    }
+
+}

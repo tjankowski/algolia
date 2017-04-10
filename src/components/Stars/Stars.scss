@@ -1,0 +1,19 @@
+@import "../../common/styles/variables.scss";
+
+.Stars {
+    background: url('../../assets/star-empty.png') repeat-x;
+    background-size: 15px;
+    height: 15px;
+    width: 75px;
+    display: inline-block;
+    overflow: hidden;
+
+    &__Rating {
+        background: url('../../assets/stars-plain.png') repeat-x;
+        background-size: 15px;
+        float: left;
+        height: 15px;
+        display:block;
+    }
+
+}
